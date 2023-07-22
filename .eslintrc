@@ -30,7 +30,7 @@
     "prettier"
   ],
   "rules": {
-    "prefer-const": "error"
+    "prefer-const": "error",
   },
   "overrides": [
     /**
