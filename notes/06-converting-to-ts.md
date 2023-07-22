@@ -100,7 +100,7 @@ find tests -name '*.jsx' -exec bash -c 'git mv "$0" "${0%.jsx}.tsx"' "{}" \;
 # rename all JSX files in src/ to TSX
 find tests -name '*.jsx.snap' -exec bash -c 'git mv "$0" "${0%.jsx.snap}.tsx.snap"' "{}" \;
 # rename all JS files in tests/ to TS
-find tests -name '*.js' -exec bash -c 'git mv "$0" "${0%.js}.ts"' "{}" \;
+find tests -name '*.js' -exec bash -c 'git mv "$0" "${0%.js}.ts"' "{}"   \;
 ```
 
 and don't forget to make this small change to [`/index.html`](/index.html)
