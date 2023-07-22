@@ -1,4 +1,4 @@
-ts// @ts-check
+// @ts-check
 const Bundler = require('parcel-bundler');
 const e = require('express');
 const jsonServer = require('json-server');
